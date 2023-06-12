@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.example.data-v-7a025996 {
+  padding: 15px;
+  background-color: #fff;
+}
+.segmented-control.data-v-7a025996 {
+  margin-bottom: 15px;
+}
+.button-group.data-v-7a025996 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.form-item.data-v-7a025996 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.button.data-v-7a025996 {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 10px;
+}
+

@@ -1,0 +1,90 @@
+{
+	"pages": [{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "敏感人群追踪",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "敏感人群追踪",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [{
+                    "path" : "zicha/zicha",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                },{
+                    "path" : "lxwm/lxwm",
+                        "style" :                                                                                    
+                    {
+                        "navigationBarTitleText": "",
+                        "enablePullDownRefresh": false
+                    }
+                  },{
+                      "path" : "sybz/sybz",
+                          "style" :                                                                                    
+                      {
+                          "navigationBarTitleText": "",
+                          "enablePullDownRefresh": false
+                      }
+                  },{
+                      "path" : "ptgg/ptgg",
+                          "style" :                                                                                    
+                      {
+                          "navigationBarTitleText": "",
+                          "enablePullDownRefresh": false
+                      }
+                  },{
+                    "path" : "result/result",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+    }
+  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+  "tabBar": {
+    "list":[
+      {
+        "pagePath":"pages/search/search",
+        "text":"查询",
+        "iconPath":"static/tab_icons/search.png",
+        "selectedIconPath": "static/tab_icons/search-active.png"
+      },
+      {
+        "pagePath":"pages/message/message",
+        "text":"信息",
+        "iconPath":"static/tab_icons/message.png",
+        "selectedIconPath": "static/tab_icons/message-active.png"
+      }
+    ]
+  }
+}

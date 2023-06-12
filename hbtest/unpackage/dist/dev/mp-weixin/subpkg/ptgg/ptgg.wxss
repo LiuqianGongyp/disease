@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.pbiaoti {
+  font-size: 45rpx;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.pletter {
+  margin-top: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+

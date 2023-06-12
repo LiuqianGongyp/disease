@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+image {
+  width: 100%;
+}
+.title0 {
+  font-size: 25px;
+  margin-top: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title1 {
+  font-size: 15px;
+  margin-top: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  color: #909399;
+}
+button {
+  margin-top: 100rpx;
+}
+

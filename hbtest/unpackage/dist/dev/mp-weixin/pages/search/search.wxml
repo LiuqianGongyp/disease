@@ -1,0 +1,4 @@
+<view><view><image src="../../static/title.png"></image><text class="title0">敏感人群追踪自查\n</text><text class="title1">注意事项：
+  ＊该小程序提供查询的数据范围截至当前日期的7天内确诊或疑似患者的相关数据。考虑到各地防疫机构上传数据存在不等时性，可能导致结果存在误差。请您密切关注自己身体状况，如有不适请及时就医。查询结果仅供参考。
+  ＊本小程序保证您的数据安全，请放心使用。
+  ＊请严格遵守《中华人民共和国网络安全法》规定，不得利用本工具提供的数据从事侵害他人名誉、隐私等活动。</text><button style="width:80%;" type="primary" data-event-opts="{{[['tap',[['agree',['$event']]]]]}}" bindtap="__e">自查</button></view></view>

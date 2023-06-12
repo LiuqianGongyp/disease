@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+image {
+  margin-top: 20px;
+  width: 100%;
+}
+.result {
+  display: flex;
+  align-items: center;
+}
+.result uni-icons {
+  margin-top: 100px;
+  margin-left: 125px;
+}
+.result text {
+  margin-top: 99px;
+  font-size: 60rpx;
+  color: seagreen;
+  margin-left: 5px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  margin-left: 125px;
+  margin-top: 10px;
+}
+.title {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #909399;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.showresult {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #D87093;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: 900;
+}
+
