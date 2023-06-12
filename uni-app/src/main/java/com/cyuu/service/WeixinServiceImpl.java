@@ -31,7 +31,7 @@ public class WeixinServiceImpl implements IWeixinService {
 //        result.put("status", 200);
 
         String url = "https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code";
-        String replaceUrl = url.replace("{0}", "wxb2de84f433c824b5").replace("{1}", "a28182df3288119760cf076a0fb54d0a").replace("{2}", code);
+        String replaceUrl = url.replace("{0}", "").replace("{1}", "").replace("{2}", code);
         String res = HttpUtil.get(replaceUrl);
 //        if(StringUtils.contains(res, "errcode")){
 //            // 校验出错

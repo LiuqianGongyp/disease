@@ -13,5 +13,10 @@
 文件介绍
 ------------------
 
-*         hbtest文件夹中是前端代码
-*         uni-app文件夹中是后端代码
+* hbtest文件夹中是前端代码
+
+  需要在文件“.\disease\hbtest\subpkg\zicha\zicha.vue”和“.\disease\hbtest\manifest.json”中添加您的密钥。
+
+* uni-app文件夹中是后端代码
+
+  需要在文件“.\disease\uni-app\src\main\java\com\cyuu\service\WeixinServiceImpl.java”中添加您的密钥。

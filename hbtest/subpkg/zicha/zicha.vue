@@ -21,7 +21,7 @@
 		            uni.setStorageSync('ADDindex',id);        
 		          } catch (e) {// error
 		          }
-        const key = 'GMWBZ-Y2PC3-4VD3K-3WTIF-7BWI3-2LB2Q'; //使用在腾讯位置服务申请的key
+        const key = ''; //使用在腾讯位置服务申请的key
         const referer = '地点定位'; //调用插件的app的名称
         const location = JSON.stringify({
         					latitude: 39.89631551,

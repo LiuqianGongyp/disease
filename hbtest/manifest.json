@@ -52,7 +52,7 @@
     /* 快应用特有相关 */
     "mp-weixin" : {
         /* 小程序特有相关 */
-        "appid" : "wxb2de84f433c824b5",
+        "appid" : "",
         "setting" : {
             "urlCheck" : false,
             "postcss" : true
@@ -61,7 +61,7 @@
         "plugins" : {
             "chooseLocation" : {
                 "version" : "1.0.9",
-                "provider" : "wx76a9a06e5b4e693e"
+                "provider" : ""
             }
         },
         "permission" : {
